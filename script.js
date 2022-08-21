@@ -18,7 +18,7 @@ class ImageSlider {
         } 
         
         document.querySelector(".image-container img").src = imageData[this.initialImageNumber -= 1]
-        console.log(this.initialImageNumber)
+        // console.log(this.initialImageNumber)
     }
     
     rightArrowImage() {
@@ -27,7 +27,7 @@ class ImageSlider {
         } 
 
         document.querySelector(".image-container img").src = imageData[this.initialImageNumber += 1]
-        console.log(this.initialImageNumber)
+        // console.log(this.initialImageNumber)
     }
 }
 
